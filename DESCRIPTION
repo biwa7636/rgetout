@@ -1,0 +1,12 @@
+Package: rgetout
+Title: A R package to get all the outlinks for a given URL
+Version: 0.1
+Authors@R: "Bin Wang <binwang.cu@gmail.com> [aut, cre]"
+Description: This package is intended to include as much web extraction functionality as much as possible. It starts with one function. getout will extract 
+    all the outlinks for a given URL with a user-agent that you can customize. 
+Depends: R (>= 3.0.2)
+Imports: 
+    XML,
+    RCurl
+License: MIT
+LazyData: true
